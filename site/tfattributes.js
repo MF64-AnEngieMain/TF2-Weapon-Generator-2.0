@@ -175,6 +175,12 @@ var tfattributes = {
       "techVal" : "slow enemy on hit",
       "phyVal" : "On Hit: &s% chance to slow target",
       "state" : "+"
+    },
+    {
+      "stored_at" : 6,
+      "techVal" : "harm self on hit",
+      "phyVal" : "&s% damage to yourself",
+      "state" : "-"
     }
   ],
   "absoluteAttributes" : [

@@ -141,7 +141,7 @@ var tfattributes = {
     {
       "stored_at" : 23,
       "techVal" : "medigun restores ammo",
-      "phyVal" : "Restores patient's ammo by &s% every second",
+      "phyVal" : "Restores patient's ammo by &s every second",
       "state" : "+"
     }
   ],

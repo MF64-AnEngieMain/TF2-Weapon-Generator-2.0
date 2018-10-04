@@ -181,6 +181,24 @@ var tfattributes = {
       "techVal" : "harm self on hit",
       "phyVal" : "&s% damage to yourself",
       "state" : "-"
+    },
+    {
+      "stored_at" : 7,
+      "techVal" : "lunchbox recharges faster",
+      "phyVal" : "+&s% faster recharge rate",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 8,
+      "techVal" : "lunchbox recharges slower",
+      "phyVal" : "&s% slower recharge rate",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 9,
+      "techVal" : "lunchbox healing",
+      "phyVal" : "Heals &s HP upon eating",
+      "state" : "="
     }
   ],
   "absoluteAttributes" : [
@@ -302,6 +320,12 @@ var tfattributes = {
       "stored_at" : 19,
       "techVal" : "ubercharge is super-heal",
       "phyVal" : "Ubercharge: Heal 300% faster",
+      "state" : "="
+    },
+    {
+      "stored_at" : 20,
+      "techVal" : "weapon is lunchbox",
+      "phyVal" : "This weapon is a lunchbox",
       "state" : "="
     }
   ]

@@ -140,7 +140,7 @@ var tfattributes = {
     },
     {
       "stored_at" : 23,
-      "techVal" : "medi gun restores ammo",
+      "techVal" : "medigun restores ammo",
       "phyVal" : "Restores patient's ammo by &s% every second",
       "state" : "+"
     }
@@ -324,7 +324,7 @@ var tfattributes = {
     },
     {
       "stored_at" : 19,
-      "techVal" : "ubercharge is super-heal",
+      "techVal" : "medigun charge is heal boost",
       "phyVal" : "Ubercharge: Heal 300% faster",
       "state" : "="
     },

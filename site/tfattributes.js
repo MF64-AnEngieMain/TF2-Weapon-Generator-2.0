@@ -297,6 +297,12 @@ var tfattributes = {
       "techVal" : "fire retardant",
       "phyVal" : "Wearer cannot ignite",
       "state" : "+"
+    },
+    {
+      "stored_at" : 19,
+      "techVal" : "ubercharge is super-heal",
+      "phyVal" : "Ubercharge: Heal 300% faster",
+      "state" : "="
     }
   ]
 }

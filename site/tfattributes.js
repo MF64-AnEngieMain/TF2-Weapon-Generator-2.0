@@ -137,6 +137,12 @@ var tfattributes = {
       "techVal" : "move speed penalty",
       "phyVal" : "&s slower move speed on wearer",
       "state" : "-"
+    },
+    {
+      "stored_at" : 23,
+      "techVal" : "medi gun restores ammo",
+      "phyVal" : "Restores patient's ammo by &s% every second",
+      "state" : "+"
     }
   ],
   "additiveAttributes" : [

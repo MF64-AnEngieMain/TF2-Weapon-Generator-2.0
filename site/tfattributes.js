@@ -345,5 +345,6 @@ var tfattributes = {
       "techVal" : "collect organs on hit",
       "phyVal" : "Collect the organs of the people you hit",
       "state" : "+"
+    }
   ]
 }

@@ -205,6 +205,12 @@ var tfattributes = {
       "techVal" : "lunchbox healing",
       "phyVal" : "Heals &s HP upon eating",
       "state" : "="
+    },
+    {
+      "stored_at" : 10,
+      "techVal" : "syringes apply mad milk",
+      "phyVal" : "On Hit: Apply Mad Milk to your target for &s seconds",
+      "state" : "+"
     }
   ],
   "absoluteAttributes" : [
@@ -333,6 +339,11 @@ var tfattributes = {
       "techVal" : "weapon is lunchbox",
       "phyVal" : "This weapon is a lunchbox",
       "state" : "="
-    }
+    },
+    {
+      "stored_at" : 21,
+      "techVal" : "collect organs on hit",
+      "phyVal" : "Collect the organs of the people you hit",
+      "state" : "+"
   ]
 }

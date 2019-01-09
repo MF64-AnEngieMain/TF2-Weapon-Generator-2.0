@@ -345,6 +345,12 @@ var tfattributes = {
       "techVal" : "collect organs on hit",
       "phyVal" : "Collect the organs of the people you hit",
       "state" : "+"
+    },
+    {
+      "stored_at" : 22,
+      "techVal" : "chaotic strength",
+      "phyVal" : "This weapon instantly kills anyone not at full HP and reduces anyone who is at full HP to 1 HP",
+      "state" : "C"
     }
   ]
 }

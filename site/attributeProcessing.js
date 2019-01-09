@@ -15,7 +15,7 @@
 			
 			if(tfattributes[c[o]][i].state == "+") { opt.id = "positiveColor"}
 			if(tfattributes[c[o]][i].state == "-") { opt.id = "negativeColor"}
-			if(tfattributes[c[o]][i].state == "C") { opt.id =
+			if(tfattributes[c[o]][i].state == "C") { opt.id = "CHAOTICColor"}
 			
 			opt.innerHTML = "(" + tfattributes[c[o]][i].state + ") : " + tfattributes[c[o]][i].techVal;
 			currentElement.appendChild(opt);

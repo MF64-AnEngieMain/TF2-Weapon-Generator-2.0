@@ -15,6 +15,7 @@
 			
 			if(tfattributes[c[o]][i].state == "+") { opt.id = "positiveColor"}
 			if(tfattributes[c[o]][i].state == "-") { opt.id = "negativeColor"}
+			if(tfattributes[c[o]][i].state == "C") { opt.id =
 			
 			opt.innerHTML = "(" + tfattributes[c[o]][i].state + ") : " + tfattributes[c[o]][i].techVal;
 			currentElement.appendChild(opt);
@@ -64,6 +65,12 @@ function getAttribute(typeset) {
 		attrHolder.innerHTML = selected[1];
 		attrHolder.id = [fileDot, techID];
 		document.getElementById("negativeStats").appendChild(attrHolder);
+		
+	} else if( selected[0] == "C") {
+		
+		attrHolder.innerHTML = selected[1];
+		attrHolder.id = [fileDot, techID];
+		document.getElementById("CHAOTICStats").appendChild(attrHolder);
 		
 	} else { 
 		

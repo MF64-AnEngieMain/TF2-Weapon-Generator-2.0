@@ -217,6 +217,12 @@ var tfattributes = {
       "techVal" : "syringes apply mad milk",
       "phyVal" : "On Hit: Apply Mad Milk to your target for &s seconds",
       "state" : "+"
+    },
+    {
+      "stored_at" : 11,
+      "techVal" : "invincibility on kill",
+      "phyVal" : "Grants invinicibility for &s seconds with every kill",
+      "state" : "+"
     }
   ],
   "absoluteAttributes" : [

@@ -26,25 +26,12 @@
 					<br>
 					<button onclick="getWepName()">Submit</button>
 					<br>
-					<div style="padding-top: 25px">Class & Slot</div>
-					<select id="wepClass" style="width: 100px">
-						<option value="scout">Scout</option>
-						<option value="soldier">Soldier</option>
-						<option value="pyro">Pyro</option>
-						<option value="demoman">Demo</option>
-						<option value="heavyweapons">Heavy</option>
-						<option value="engineer">Engineer</option>
-						<option value="medic">Medic</option>
-						<option value="sniper">Sniper</option>
-						<option value="spy">Spy</option>
-					</select>
-					<select id="wepSlot" style="width: 100px">
-						<option value="0">Primary</option>
-						<option value="1">Secondary</option>
-						<option value="2">Melee</option>
-						<option value="3">PDA 1</option>
-						<option value="4">PDA 2</option>
-					</select>
+					
+					<div>Weapon Class:</div>
+					<input type= "text" id="weaponClassInput"/>
+					<br>
+					<button onclick="getWepClass()">Submit</button>
+					<br>
 					
 				</td>
 				<!-------------------------------------------------------------------------------------------------------->
@@ -54,6 +41,8 @@
 							<div id="weaponIcon"></div>
 							<div id="weaponStats" style="padding-left: 10px; padding-right: 10px;text-align: center">
 					
+								<div id="weaponClass" style="color: #000000; font-size: 5px; text-transform: uppercase; padding-bottom: 20px; padding-top: 10px; font-weight: bold"></div>
+								
 								<div id="weaponName" style="color: #FFD700; font-size: 20px; text-transform: uppercase; padding-bottom: 20px; padding-top: 10px; font-weight: bold"></div>
 								
 								<div id="positiveStats" style="color: #99CCFF; margin-bottom: 10px"></div>

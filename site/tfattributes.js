@@ -143,6 +143,12 @@ var tfattributes = {
       "techVal" : "medigun restores ammo",
       "phyVal" : "Restores patient's ammo by &s every second",
       "state" : "+"
+    },
+    {
+      "stored_at" : 24,
+      "techVal" : "sapper damage penalty",
+      "phyVal" : "-&s Sapper damage penalty",
+      "state" : "-"
     }
   ],
   "additiveAttributes" : [
@@ -351,6 +357,12 @@ var tfattributes = {
       "techVal" : "chaotic strength",
       "phyVal" : "This weapon instantly kills anyone not at full HP and reduces anyone who is at full HP to 1 HP",
       "state" : "C"
+    },
+    {
+      "stored_at" : 23,
+      "techVal" : "sapper reverse-engineers",
+      "phyVal" : "Reverses enemy building construction",
+      "state" : "+"
     }
   ]
 }

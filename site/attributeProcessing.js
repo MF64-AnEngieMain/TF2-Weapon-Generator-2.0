@@ -27,7 +27,13 @@ function getWepName() {
 				//console.log(wepName);
 				document.getElementById("weaponName").innerHTML = wepName.value;
 			}
-	
+
+function getWepClass() {
+				var wepClass = document.getElementById("weaponClassInput");
+				//console.log(wepClass);
+				document.getElementById("weaponClass").innerHTML = wepClass.value;
+			}
+
 function getAttribute(typeset) {
 	
 	//Make sure valid inputs are given

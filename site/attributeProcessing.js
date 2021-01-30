@@ -15,7 +15,6 @@
 			
 			if(tfattributes[c[o]][i].state == "+") { opt.id = "positiveColor"}
 			if(tfattributes[c[o]][i].state == "-") { opt.id = "negativeColor"}
-			f(tfattributes[c[o]][i].state == "=") { opt.id = "neutralFont"}
 			
 			opt.innerHTML = "(" + tfattributes[c[o]][i].state + ") : " + tfattributes[c[o]][i].techVal;
 			currentElement.appendChild(opt);

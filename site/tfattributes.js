@@ -301,7 +301,7 @@ var tfattributes = {
     {
       "stored_at" : 12,
       "techVal" : "scattergun has knockback",
-      "phyVal" : "Knockback on the targer and shooter",
+      "phyVal" : "Knockback on the target and shooter",
       "state" : "+"
     },
     {

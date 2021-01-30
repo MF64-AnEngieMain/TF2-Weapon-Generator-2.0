@@ -352,7 +352,7 @@ var tfattributes = {
       "stored_at" : 58,
       "techVal" : "extinguish teammates for faster recharge",
       "phyVal" : "Extinguishing teammates reduces cooldown by -&s",
-      "state" : "-"
+      "state" : "+"
     },
     {
       "stored_at" : 59,
@@ -364,7 +364,7 @@ var tfattributes = {
       "stored_at" : 60,
       "techVal" : "knockback resist on aim",
       "phyVal" : "Knockback reduced by &s when aiming",
-      "state" : "-"
+      "state" : "+"
     }
   ],
   "additiveAttributes" : [

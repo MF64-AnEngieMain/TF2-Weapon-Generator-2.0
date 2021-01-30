@@ -365,6 +365,180 @@ var tfattributes = {
       "techVal" : "knockback resist on aim",
       "phyVal" : "Knockback reduced by &s when aiming",
       "state" : "+"
+    },
+    {
+      "stored_at" : 61,
+      "techVal" : "increased jump height",
+      "phyVal" : "+&s greater jump height when active",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 62,
+      "techVal" : "accuracy penalty",
+      "phyVal" : "&s less accurate",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 63,
+      "techVal" : "accuracy bonus",
+      "phyVal" : "&s more accurate",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 64,
+      "techVal" : "faster movespeed on wearer",
+      "phyVal" : "&s faster move speed on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 65,
+      "techVal" : "faster reload",
+      "phyVal" : "&s faster reload speed",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 66,
+      "techVal" : "slower reload",
+      "phyVal" : "&s slower reload speed",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 67,
+      "techVal" : "crit resistance",
+      "phyVal" : "&s crit resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 68,
+      "techVal" : "crit vulnerability",
+      "phyVal" : "&s crit vulnerability on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 69,
+      "techVal" : "damage resistance",
+      "phyVal" : "&s damage resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 70,
+      "techVal" : "damage vulnerability",
+      "phyVal" : "&s damage vulnerability on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 71,
+      "techVal" : "deploy speed bonus",
+      "phyVal" : "This weapon deploys &s faster",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 72,
+      "techVal" : "deploy speed penalty",
+      "phyVal" : "This weapon deploys &s slower",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 73,
+      "techVal" : "holster speed bonus",
+      "phyVal" : "This weapon holsters &s faster",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 74,
+      "techVal" : "holster speed penalty",
+      "phyVal" : "This weapon holsters &s slower",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 75,
+      "techVal" : "deploy holster bonus",
+      "phyVal" : "This weapon deploys and holsters &s faster",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 76,
+      "techVal" : "deploy holster penalty",
+      "phyVal" : "This weapon deploys and holsters &s slower",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 77,
+      "techVal" : "heal damage done to coated targets",
+      "phyVal" : "Players heal &s of the damage done to a coated enemy",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 78,
+      "techVal" : "projectile speed bonus",
+      "phyVal" : "+&s projectile speed",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 79,
+      "techVal" : "projectile speed penalty",
+      "phyVal" : "-&s projectile speed",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 80,
+      "techVal" : "explosion radius bonus",
+      "phyVal" : "+&s explosion radius",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 81,
+      "techVal" : "explosion radius penalty",
+      "phyVal" : "-&s explosion radius",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 82,
+      "techVal" : "carried ammo bonus",
+      "phyVal" : "+&s carried ammo",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 83,
+      "techVal" : "carried ammo penalty",
+      "phyVal" : "-&s carried ammo",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 84,
+      "techVal" : "blastjump damage reduction",
+      "phyVal" : "-&s blast damage from blast jumps",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 85,
+      "techVal" : "blastjump damage penalty",
+      "phyVal" : "+&s blast damage from blast jumps",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 86,
+      "techVal" : "medic source bonus",
+      "phyVal" : "+&s more healing from Medic sources",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 87,
+      "techVal" : "medic source penalty",
+      "phyVal" : "-&s less healing from Medic sources",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 88,
+      "techVal" : "speedboost on team hit",
+      "phyVal" : "On Hit Teammate: Both players get +&s movespeed for several seconds",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 89,
+      "techVal" : "gain health on kill",
+      "phyVal" : "Gain +&s of base health on kill",
+      "state" : "+"
     }
   ],
   "additiveAttributes" : [
@@ -474,6 +648,72 @@ var tfattributes = {
       "stored_at" : 17,
       "techVal" : "alt fire with full charge for mini crits",
       "phyVal" : "Secondary fire when charged grants mini-crits for &s seconds",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 18,
+      "techVal" : "bonk invulnerability",
+      "phyVal" : "Drink to become invulnerable and unable to attack for &s seconds",
+      "state" : "="
+    },
+    {
+      "stored_at" : 19,
+      "techVal" : "crit cola status",
+      "phyVal" : "While effect is active: each attack mini-crits and sets Mark-For-Death for &s seconds",
+      "state" : "="
+    },
+    {
+      "stored_at" : 20,
+      "techVal" : "mark for death on hit",
+      "phyVal" : "On Hit: Give Marked-For-Death for &s seconds",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 21,
+      "techVal" : "stickybomb bonus",
+      "phyVal" : "+&s max stickybombs out",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 22,
+      "techVal" : "stickybomb penalty",
+      "phyVal" : "-&s max stickybombs out",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 23,
+      "techVal" : "projectile deviation",
+      "phyVal" : "+&s degrees random projectile deviation",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 24,
+      "techVal" : "beggar barrage load",
+      "phyVal" : "Hold Fire to load up to &s shots",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 25,
+      "techVal" : "clip increase on kill",
+      "phyVal" : "Clip size increased on kill with a maximum increase of &s",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 26,
+      "techVal" : "mantreads landing stat",
+      "phyVal" : "Deal &sx falling damage to the player you land on",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 27,
+      "techVal" : "honorbound",
+      "phyVal" : "Honorbound: Once drawn sheathing deals &sx damage to yourself unless it kills",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 28,
+      "techVal" : "increased capture rate",
+      "phyVal" : "+&s capture rate on wearer",
       "state" : "+"
     }
   ],
@@ -723,6 +963,162 @@ var tfattributes = {
       "techVal" : "flinch immune on charge",
       "phyVal" : "No flinching when aiming and fully charged",
       "state" : "+"
+    },
+    {
+      "stored_at" : 41,
+      "techVal" : "alt fire shove",
+      "phyVal" : "Alt-Fire to reach and shove someone",
+      "state" : "="
+    },
+    {
+      "stored_at" : 42,
+      "techVal" : "small hp kit on kill",
+      "phyVal" : "On Kill: A small health pack is dropped",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 43,
+      "techVal" : "hit self on miss",
+      "phyVal" : "On Miss: Hit yourself",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 44,
+      "techVal" : "crit over mini crit",
+      "phyVal" : "Crits whenever it would normally mini-crit",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 45,
+      "techVal" : "mini crit while airborne",
+      "phyVal" : "This weapon deals mini-crits while airborne",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 46,
+      "techVal" : "crit while blast jumping",
+      "phyVal" : "Guaranteed critical hit while blast jumping",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 47,
+      "techVal" : "sandman ball",
+      "phyVal" : "Alt-Fire: Launches a ball that slows opponents",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 48,
+      "techVal" : "mini crit on back of target",
+      "phyVal" : "Mini-crits targets when fired at their back from close range",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 49,
+      "techVal" : "ornament ball",
+      "phyVal" : "Alt-Fire: Launches a festive ornament that shatters causing bleed",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 50,
+      "techVal" : "mini crit non jump airborne targets",
+      "phyVal" : "Mini-crits targets launched airborne by explosions, grapple hooks or rocket packs",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 51,
+      "techVal" : "no self damage",
+      "phyVal" : "No self inflicted blast damage taken",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 52,
+      "techVal" : "cannot carry objective",
+      "phyVal" : "Wearer cannot carry the intelligence briefcase or PASS Time JACK",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 53,
+      "techVal" : "mini crit over crit",
+      "phyVal" : "Minicrits whenever it would normally crit",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 54,
+      "techVal" : "no ammo required",
+      "phyVal" : "Does not require ammo",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 55,
+      "techVal" : "no dispenser ammo while active",
+      "phyVal" : "No ammo from dispensers while active",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 56,
+      "techVal" : "chamber overload",
+      "phyVal" : "Overloading the chamber will cause a misfire",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 57,
+      "techVal" : "beggar barrage release",
+      "phyVal" : "Release Fire to unleash the barrage",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 58,
+      "techVal" : "air strike blastjump effect",
+      "phyVal" : "Increased attack speed and smaller blast radius while blast jumping",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 59,
+      "techVal" : "fixed shot pattern",
+      "phyVal" : "Fires a fixed shot pattern",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 60,
+      "techVal" : "decreased accuracy per shot",
+      "phyVal" : "Successive shots become less accurate",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 61,
+      "techVal" : "projectile penetration",
+      "phyVal" : "Projectile penetrates enemy targets",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 62,
+      "techVal" : "undeflectable projectile",
+      "phyVal" : "Projectile cannot be deflected",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 63,
+      "techVal" : "damage increase with injury",
+      "phyVal" : "Damage increases as the user becomes injured",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 64,
+      "techVal" : "speed increase with injury",
+      "phyVal" : "Move speed increases as the user becomes injured",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 65,
+      "techVal" : "marked for death while active",
+      "phyVal" : "You are marked for death while active and for a short period after switching weapons",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 66,
+      "techVal" : "ohko other weilders",
+      "phyVal" : "This weapon will instantly kill other players weilding it",
+      "state" : "="
     }
   ]
 }

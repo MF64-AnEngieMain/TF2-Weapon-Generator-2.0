@@ -323,6 +323,48 @@ var tfattributes = {
       "techVal" : "building part bonus",
       "phyVal" : "Destroyed building parts give &s more metal and ammo",
       "state" : "+"
+    },
+    {
+      "stored_at" : 54,
+      "techVal" : "uber on hit",
+      "phyVal" : "On Hit: &s ÜberCharge added",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 55,
+      "techVal" : "sniper initial charge penalty",
+      "phyVal" : "Base charge rate decreased by &s",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 56,
+      "techVal" : "damage buff on full charge",
+      "phyVal" : "On Full Charge: +&s damage per shot",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 57,
+      "techVal" : "bodyshot damage penalty",
+      "phyVal" : "-&s damage on body shot",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 58,
+      "techVal" : "extinguish teammates for faster recharge",
+      "phyVal" : "Extinguishing teammates reduces cooldown by -&s",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 59,
+      "techVal" : "maximum overheal penalty",
+      "phyVal" : "-&s maximum overheal on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 60,
+      "techVal" : "knockback resist on aim",
+      "phyVal" : "Knockback reduced by &s when aiming",
+      "state" : "-"
     }
   ],
   "additiveAttributes" : [
@@ -420,6 +462,18 @@ var tfattributes = {
       "stored_at" : 15,
       "techVal" : "health regen bonus",
       "phyVal" : "+&s health regenerated per second on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 16,
+      "techVal" : "damage filled meter",
+      "phyVal" : "Dealing damage fills charge meter and requires &s damage dealt to fully charge",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 17,
+      "techVal" : "alt fire with full charge for mini crits",
+      "phyVal" : "Secondary fire when charged grants mini-crits for &s seconds",
       "state" : "+"
     }
   ],
@@ -535,7 +589,7 @@ var tfattributes = {
     {
       "stored_at" : 18,
       "techVal" : "fire retardant",
-      "phyVal" : "Wearer cannot ignite",
+      "phyVal" : "Immune to the effects of afterburn",
       "state" : "+"
     },
     {
@@ -597,6 +651,78 @@ var tfattributes = {
       "techVal" : "no building gib pickup",
       "phyVal" : "Destroyed building parts don't give metal or ammo",
       "state" : "-"
+    },
+    {
+      "stored_at" : 29,
+      "techVal" : "heal taunt",
+      "phyVal" : "Alt-Fire: Applies a healing effect to all nearby teammates",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 30,
+      "techVal" : "see enemy health",
+      "phyVal" : "Allows you to see enemy health",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 31,
+      "techVal" : "jarate on hit",
+      "phyVal" : "On Scoped Hit: Apply Jarate for 2 to 5 seconds based on charge level.",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 32,
+      "techVal" : "natures call",
+      "phyVal" : "Nature's Call: Scoped headshots always mini-crit and reduce the remaining cooldown of Jarate by 1 second.",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 33,
+      "techVal" : "full charge projectile penetration",
+      "phyVal" : "On Full Charge: Projectiles penetrate players",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 34,
+      "techVal" : "must zoom to fire",
+      "phyVal" : "Cannot fire unless zoomed",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 35,
+      "techVal" : "tracer rounds",
+      "phyVal" : "Fires tracer rounds",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 36,
+      "techVal" : "charge and fire without zoom",
+      "phyVal" : "Charge and fire shots independent of zoom",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 37,
+      "techVal" : "no headshots until charged",
+      "phyVal" : "No headshots when not fully charged",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 38,
+      "techVal" : "mini crit on coated enemies",
+      "phyVal" : "Coated enemies take mini-crits",
+      "state" : "="
+    },
+    {
+      "stored_at" : 39,
+      "techVal" : "extinguish fires",
+      "phyVal" : "Can be used to extinguish fires",
+      "state" : "="
+    },
+    {
+      "stored_at" : 40,
+      "techVal" : "flinch immune on charge",
+      "phyVal" : "No flinching when aiming and fully charged",
+      "state" : "+"
     }
   ]
 }

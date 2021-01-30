@@ -360,12 +360,6 @@ var tfattributes = {
     },
     {
       "stored_at" : 22,
-      "techVal" : "chaotic strength",
-      "phyVal" : "This weapon instantly kills anyone not at full HP and reduces anyone who is at full HP to 1 HP",
-      "state" : "C"
-    },
-    {
-      "stored_at" : 23,
       "techVal" : "sapper reverse-engineers",
       "phyVal" : "Reverses enemy building construction",
       "state" : "+"

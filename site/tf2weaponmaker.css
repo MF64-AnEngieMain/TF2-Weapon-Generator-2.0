@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'TFBuild';
+	src: url('TF2Build.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'TFSec';
+	src: url('TF2secondary.ttf') format('truetype');
+}
+
 input {
 	padding: 1px;
 	margin: 2px 0px 2px 0px;

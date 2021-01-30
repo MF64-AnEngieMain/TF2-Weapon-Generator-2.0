@@ -1,5 +1,4 @@
 TOP PRIORITY:
--Fully fix Weapon Class: Currently, the margins are very much an issue!
 -Add Weapon Level: All official TF2 weapons feature "Level (Level) (Weapon Type, like Scattergun or Wrench)", which is currently missing from the Weapon Generator
 
 NORMAL PRIORITY:

@@ -149,6 +149,156 @@ var tfattributes = {
       "techVal" : "sapper damage penalty",
       "phyVal" : "-&s Sapper damage penalty",
       "state" : "-"
+    },
+    {
+      "stored_at" : 25,
+      "techVal" : "fire vulnerability",
+      "phyVal" : "&s fire damage vulnerability on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 26,
+      "techVal" : "explosive vulnerability",
+      "phyVal" : "&s explosive damage vulnerability on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 27,
+      "techVal" : "bullet vulnerability",
+      "phyVal" : "&s bullet damage vulnerability on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 28,
+      "techVal" : "melee vulnerability",
+      "phyVal" : "&s melee damage vulnerability on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 29,
+      "techVal" : "fire resistance",
+      "phyVal" : "&s fire damage resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 30,
+      "techVal" : "explosive resistance",
+      "phyVal" : "&s explosive damage resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 31,
+      "techVal" : "bullet resistance",
+      "phyVal" : "&s bullet damage resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 32,
+      "techVal" : "melee resistance",
+      "phyVal" : "&s melee damage resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 33,
+      "techVal" : "faster sentry build",
+      "phyVal" : "Sentry build speed increased by &s",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 34,
+      "techVal" : "construction hit bonus",
+      "phyVal" : "Construction hit speed boost increased by &s",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 35,
+      "techVal" : "repair rate bonus",
+      "phyVal" : "&s faster repair rate",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 36,
+      "techVal" : "repair rate penalty",
+      "phyVal" : "&s slower repair rate",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 37,
+      "techVal" : "damage bonus vs buildings",
+      "phyVal" : "+&s damage bonus vs buildings",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 38,
+      "techVal" : "damage penalty vs buildings",
+      "phyVal" : "-&s damage penalty vs buildings",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 39,
+      "techVal" : "damage bonus vs players",
+      "phyVal" : "+&s damage bonus vs players",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 40,
+      "techVal" : "damage penalty vs players",
+      "phyVal" : "-&s damage penalty vs players",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 41,
+      "techVal" : "sentry cost decrease",
+      "phyVal" : "-&s metal cost when constructing or upgrading sentries",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 42,
+      "techVal" : "dispenser cost decrease",
+      "phyVal" : "-&s metal cost when constructing or upgrading dispensers",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 43,
+      "techVal" : "teleporter cost decrease",
+      "phyVal" : "-&s metal cost when constructing or upgrading teleporters",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 44,
+      "techVal" : "sentry cost increase",
+      "phyVal" : "+&s metal cost when constructing or upgrading sentries",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 45,
+      "techVal" : "dispenser cost increase",
+      "phyVal" : "+&s metal cost when constructing or upgrading dispensers",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 46,
+      "techVal" : "teleporter cost increase",
+      "phyVal" : "+&s metal cost when constructing or upgrading teleporters",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 47,
+      "techVal" : "construction hit penalty",
+      "phyVal" : "Construction hit speed boost decreased by &s",
+      "state" : "-"
+    }
+    {
+      "stored_at" : 48,
+      "techVal" : "metal pickup bonus",
+      "phyVal" : "&s more metal from pickups and dispensers",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 49,
+      "techVal" : "metal pickup penalty",
+      "phyVal" : "&s less metal from pickups and dispensers",
+      "state" : "-"
     }
   ],
   "additiveAttributes" : [
@@ -222,6 +372,18 @@ var tfattributes = {
       "stored_at" : 11,
       "techVal" : "invincibility on kill",
       "phyVal" : "Grants invinicibility for &s seconds with every kill",
+      "state" : "+"
+    }
+    {
+      "stored_at" : 12,
+      "techVal" : "max health additive penalty",
+      "phyVal" : "-&s max health on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 13,
+      "techVal" : "bleed on hit",
+      "phyVal" : "On Hit: Bleed for &s seconds",
       "state" : "+"
     }
   ],
@@ -362,6 +524,24 @@ var tfattributes = {
       "stored_at" : 22,
       "techVal" : "sapper reverse-engineers",
       "phyVal" : "Reverses enemy building construction",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 23,
+      "techVal" : "third punch to crit",
+      "phyVal" : "Third successful hit in a row always crits",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 24,
+      "techVal" : "mini sentry replacement",
+      "phyVal" : "Replaces the Sentry with a Mini-Sentry",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 25,
+      "techVal" : "reload to teleport",
+      "phyVal" : "Press your reload key to choose to teleport to spawn or your exit teleporter",
       "state" : "+"
     }
   ]

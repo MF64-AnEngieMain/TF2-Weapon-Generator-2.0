@@ -299,6 +299,12 @@ var tfattributes = {
       "techVal" : "metal pickup penalty",
       "phyVal" : "&s less metal from pickups and dispensers",
       "state" : "-"
+    },
+    {
+      "stored_at" : 50,
+      "techVal" : "ubercharge movement boost",
+      "phyVal" : "While active, movement speed increases based on ÜberCharge percentage to a maximum of +&s",
+      "state" : "="
     }
   ],
   "additiveAttributes" : [
@@ -373,7 +379,7 @@ var tfattributes = {
       "techVal" : "invincibility on kill",
       "phyVal" : "Grants invinicibility for &s seconds with every kill",
       "state" : "+"
-    }
+    },
     {
       "stored_at" : 12,
       "techVal" : "max health additive penalty",
@@ -384,6 +390,18 @@ var tfattributes = {
       "stored_at" : 13,
       "techVal" : "bleed on hit",
       "phyVal" : "On Hit: Bleed for &s seconds",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 14,
+      "techVal" : "health drain",
+      "phyVal" : "-&s health drained per second on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 15,
+      "techVal" : "health regen bonus",
+      "phyVal" : "+&s health regenerated per second on wearer",
       "state" : "+"
     }
   ],
@@ -403,7 +421,7 @@ var tfattributes = {
     {
       "stored_at" : 2,
       "techVal" : "medigun charge is crit boost",
-      "phyVal" : "UberCharge grants 100% critical chance",
+      "phyVal" : "ÜberCharge grants 100% critical chance",
       "state" : "="
     },
     {
@@ -505,7 +523,7 @@ var tfattributes = {
     {
       "stored_at" : 19,
       "techVal" : "medigun charge is heal boost",
-      "phyVal" : "Ubercharge: Heal 300% faster",
+      "phyVal" : "ÜberCharge: Heal 300% faster",
       "state" : "="
     },
     {
@@ -543,6 +561,18 @@ var tfattributes = {
       "techVal" : "reload to teleport",
       "phyVal" : "Press your reload key to choose to teleport to spawn or your exit teleporter",
       "state" : "+"
+    },
+    {
+      "stored_at" : 26,
+      "techVal" : "headshots disabled",
+      "phyVal" : "No headshots",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 27,
+      "techVal" : "inactive reload",
+      "phyVal" : "This weapon will reload automatically when not active",
+      "state" : "="
     }
   ]
 }

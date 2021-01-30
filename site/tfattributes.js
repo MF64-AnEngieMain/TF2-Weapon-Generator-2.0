@@ -803,6 +803,102 @@ var tfattributes = {
       "techVal" : "decreased damage to sentry target",
       "phyVal" : "-&s decreased damage to enemies targeted by your sentry",
       "state" : "-"
+    },
+    {
+      "stored_at" : 130,
+      "techVal" : "max primary ammo bonus",
+      "phyVal" : "+&s max primary ammo on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 131,
+      "techVal" : "max primary ammo penalty",
+      "phyVal" : "-&s max primary ammo on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 132,
+      "techVal" : "max secondary ammo bonus",
+      "phyVal" : "+&s max secondary ammo on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 133,
+      "techVal" : "max secondary ammo penalty",
+      "phyVal" : "-&s max secondary ammo on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 134,
+      "techVal" : "primary damage bonus",
+      "phyVal" : "+&s primary weapon damage on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 135,
+      "techVal" : "primary damage penalty",
+      "phyVal" : "-&s primary weapon damage on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 136,
+      "techVal" : "secondary damage bonus",
+      "phyVal" : "+&s secondary weapon damage on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 137,
+      "techVal" : "secondary damage penalty",
+      "phyVal" : "-&s secondary weapon damage on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 138,
+      "techVal" : "melee damage bonus",
+      "phyVal" : "+&s melee weapon damage on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 139,
+      "techVal" : "melee damage penalty",
+      "phyVal" : "-&s melee weapon damage on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 140,
+      "techVal" : "other weapon damage bonus",
+      "phyVal" : "+&s damage for all other weapons on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 141,
+      "techVal" : "other weapon damage penalty",
+      "phyVal" : "-&s damage for all other weapons on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 142,
+      "techVal" : "slow coated enemies",
+      "phyVal" : "Coated enemies move &s slower",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 143,
+      "techVal" : "metal capacity bonus",
+      "phyVal" : "+&s higher metal capacity on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 144,
+      "techVal" : "metal capacity penalty",
+      "phyVal" : "-&s lower metal capacity on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 145,
+      "techVal" : "damage bonus upon hitting multiple targets",
+      "phyVal" : "Shots that damage multiple targets deal &s more damage",
+      "state" : "+"
     }
   ],
   "additiveAttributes" : [
@@ -1068,6 +1164,24 @@ var tfattributes = {
       "stored_at" : 43,
       "techVal" : "sentry disabled on switch",
       "phyVal" : "Sentries are disabled for &s seconds after you switch to a different weapon",
+      "state" : "="
+    },
+    {
+      "stored_at" : 44,
+      "techVal" : "dispenser backpack",
+      "phyVal" : "Nearby teammates heal up to &s health a second",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 45,
+      "techVal" : "lunchbox ammo replenish",
+      "phyVal" : "Replenishes all ammo supplies up to &s on use",
+      "state" : "="
+    },
+    {
+      "stored_at" : 46,
+      "techVal" : "lunchbox cooldown",
+      "phyVal" : "Takes &s seconds to recharge",
       "state" : "="
     }
   ],
@@ -1743,6 +1857,42 @@ var tfattributes = {
       "techVal" : "manual sentry control",
       "phyVal" : "Take manual control of your Sentry Gun",
       "state" : "="
+    },
+    {
+      "stored_at" : 113,
+      "techVal" : "replenish lunch with health kit",
+      "phyVal" : "Cooldown can be bypassed by picking up a health kit at full health",
+      "state" : "="
+    },
+    {
+      "stored_at" : 114,
+      "techVal" : "replenish lunch with ammo pack",
+      "phyVal" : "Cooldown can be bypassed by picking up an ammo pack at full ammo",
+      "state" : "="
+    },
+    {
+      "stored_at" : 115,
+      "techVal" : "alt fire to share medium ammo pack",
+      "phyVal" : "Alt-Fire: Share this with a friend (Medium Ammo Pack)",
+      "state" : "="
+    },
+    {
+      "stored_at" : 116,
+      "techVal" : "alt fire to share small ammo pack",
+      "phyVal" : "Alt-Fire: Share this with a friend (Small Ammo Pack)",
+      "state" : "="
+    },
+    {
+      "stored_at" : 117,
+      "techVal" : "no fall off",
+      "phyVal" : "No distance fall-off on damage",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 118,
+      "techVal" : "no ramp up",
+      "phyVal" : "No distance ramp-up on damage",
+      "state" : "-"
     }
   ]
 }

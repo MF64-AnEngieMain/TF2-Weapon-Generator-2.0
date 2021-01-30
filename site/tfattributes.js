@@ -305,6 +305,24 @@ var tfattributes = {
       "techVal" : "ubercharge movement boost",
       "phyVal" : "While active, movement speed increases based on ÜberCharge percentage to a maximum of +&s",
       "state" : "="
+    },
+    {
+      "stored_at" : 51,
+      "techVal" : "building health bonus",
+      "phyVal" : "Buildings have &s more health",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 52,
+      "techVal" : "building health penalty",
+      "phyVal" : "Buildings have &s less health",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 53,
+      "techVal" : "building part bonus",
+      "phyVal" : "Destroyed building parts give &s more metal and ammo",
+      "state" : "+"
     }
   ],
   "additiveAttributes" : [
@@ -573,6 +591,12 @@ var tfattributes = {
       "techVal" : "inactive reload",
       "phyVal" : "This weapon will reload automatically when not active",
       "state" : "="
+    },
+    {
+      "stored_at" : 28,
+      "techVal" : "no building gib pickup",
+      "phyVal" : "Destroyed building parts don't give metal or ammo",
+      "state" : "-"
     }
   ]
 }

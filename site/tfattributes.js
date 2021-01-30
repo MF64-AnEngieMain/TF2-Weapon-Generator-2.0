@@ -287,7 +287,7 @@ var tfattributes = {
       "techVal" : "construction hit penalty",
       "phyVal" : "Construction hit speed boost decreased by &s",
       "state" : "-"
-    }
+    },
     {
       "stored_at" : 48,
       "techVal" : "metal pickup bonus",

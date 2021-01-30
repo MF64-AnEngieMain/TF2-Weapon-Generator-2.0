@@ -695,6 +695,114 @@ var tfattributes = {
       "techVal" : "deplete charge with kill",
       "phyVal" : "Melee kills deplete &s of your charge meter",
       "state" : "-"
+    },
+    {
+      "stored_at" : 116,
+      "techVal" : "shield bash damage bonus",
+      "phyVal" : "+&s increase in charge impact damage",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 117,
+      "techVal" : "shield bash damage penalty",
+      "phyVal" : "-&s decrease in charge impact damage",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 118,
+      "techVal" : "charge recharge bonus",
+      "phyVal" : "+&s increase in charge recharge rate",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 119,
+      "techVal" : "charge recharge penalty",
+      "phyVal" : "-&s decrease in charge recharge rate",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 116,
+      "techVal" : "minigun spinup bonus",
+      "phyVal" : "&s faster spin up time",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 117,
+      "techVal" : "minigun spinup penalty",
+      "phyVal" : "&s slower spin up time",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 118,
+      "techVal" : "damage resist under half health",
+      "phyVal" : "-&s damage resistance when below 50% health",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 119,
+      "techVal" : "damage resist under half health while spun up",
+      "phyVal" : "-&s damage resistance when below 50% health and spun up",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 120,
+      "techVal" : "faster move speed while deployed",
+      "phyVal" : "+&s faster move speed while deployed",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 121,
+      "techVal" : "slower move speed while deployed",
+      "phyVal" : "-&s slower move speed while deployed",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 122,
+      "techVal" : "healing effect bonus",
+      "phyVal" : "+&s healing effect",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 123,
+      "techVal" : "healing effect penalty",
+      "phyVal" : "-&s healing effect",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 124,
+      "techVal" : "resist ranged damage while active",
+      "phyVal" : "-&s damage from ranged sources while active",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 125,
+      "techVal" : "ranged damage vulnerability while active",
+      "phyVal" : "+&s damage from ranged sources while active",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 126,
+      "techVal" : "resist melee damage while active",
+      "phyVal" : "-&s damage from melee sources while active",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 127,
+      "techVal" : "melee damage vulnerability while active",
+      "phyVal" : "+&s damage from melee sources while active",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 128,
+      "techVal" : "increased damage to sentry target",
+      "phyVal" : "+&s increased damage to enemies targeted by your sentry",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 129,
+      "techVal" : "decreased damage to sentry target",
+      "phyVal" : "-&s decreased damage to enemies targeted by your sentry",
+      "state" : "-"
     }
   ],
   "additiveAttributes" : [
@@ -755,7 +863,7 @@ var tfattributes = {
     {
       "stored_at" : 9,
       "techVal" : "lunchbox healing",
-      "phyVal" : "Heals &s HP upon eating",
+      "phyVal" : "Eat to regain up to &s health",
       "state" : "="
     },
     {
@@ -895,6 +1003,72 @@ var tfattributes = {
       "techVal" : "bomb arm time penalty",
       "phyVal" : "+&s sec slower bomb arm time",
       "state" : "-"
+    },
+    {
+      "stored_at" : 33,
+      "techVal" : "increased charge duration",
+      "phyVal" : "&s sec increase in charge duration",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 34,
+      "techVal" : "decreased charge duration",
+      "phyVal" : "&s sec decrease in charge duration",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 35,
+      "techVal" : "additional ammo consumed while spun up",
+      "phyVal" : "Consumes an additional &s ammo per second while spun up",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 36,
+      "techVal" : "guaranteed crits for sentry kills upon sentry destruction",
+      "phyVal" : "Gain &s guaranteed crits for each sentry kill when your sentry is destroyed",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 37,
+      "techVal" : "guaranteed crits for sentry assists upon sentry destruction",
+      "phyVal" : "Gain &s guaranteed crits for each sentry assist when your sentry is destroyed",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 38,
+      "techVal" : "ammo lost per shot",
+      "phyVal" : "Per Shot: -&s ammo",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 39,
+      "techVal" : "rescue ranger building save",
+      "phyVal" : "Alt-Fire: Use &s metal to pick up your targeted building from long range",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 40,
+      "techVal" : "building heal bolt",
+      "phyVal" : "Fires a special bolt that can heal up to &s health for friendly buildings",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 41,
+      "techVal" : "health to metal cost",
+      "phyVal" : "&s-to-1 health-to-metal ratio when repairing buildings",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 42,
+      "techVal" : "projectile deletion orb",
+      "phyVal" : "Alt-Fire: Launches a projectile-consuming energy ball that costs &s metal",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 43,
+      "techVal" : "sentry disabled on switch",
+      "phyVal" : "Sentries are disabled for &s seconds after you switch to a different weapon",
+      "state" : "="
     }
   ],
   "absoluteAttributes" : [
@@ -1016,12 +1190,6 @@ var tfattributes = {
       "stored_at" : 19,
       "techVal" : "medigun charge is heal boost",
       "phyVal" : "ÜberCharge: Heal 300% faster",
-      "state" : "="
-    },
-    {
-      "stored_at" : 20,
-      "techVal" : "weapon is lunchbox",
-      "phyVal" : "This weapon is a lunchbox",
       "state" : "="
     },
     {
@@ -1437,6 +1605,144 @@ var tfattributes = {
       "techVal" : "scottish resistance detonation buff",
       "phyVal" : "Detonates stickybombs near the crosshair and directly under your feet",
       "state" : "+"
+    },
+    {
+      "stored_at" : 90,
+      "techVal" : "chargin targe charge",
+      "phyVal" : "Alt-Fire: Charge toward your enemies remove debuffs and gain a critical melee strike after impacting an enemy at distance",
+      "state" : "="
+    },
+    {
+      "stored_at" : 91,
+      "techVal" : "splendid screen charge",
+      "phyVal" : "Alt-Fire: Charge toward your enemies remove debuffs and gain a critical melee strike after impacting an enemy",
+      "state" : "="
+    },
+    {
+      "stored_at" : 92,
+      "techVal" : "tide turner charge",
+      "phyVal" : "Alt-Fire: Charge toward your enemies remove debuffs and gain a mini-crit melee strike after impacting an enemy at distance",
+      "state" : "="
+    },
+    {
+      "stored_at" : 93,
+      "techVal" : "shield full turn control on charge",
+      "phyVal" : "Full turning control while charging",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 94,
+      "techVal" : "damaged while charging reduces charge",
+      "phyVal" : "Taking damage while charge is active reduces remaining charge time",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 95,
+      "techVal" : "eyelander heads on kill",
+      "phyVal" : "Gives increased speed and health with every head you take",
+      "state" : "="
+    },
+    {
+      "stored_at" : 96,
+      "techVal" : "explode on first hit",
+      "phyVal" : "The first hit will cause an explosion",
+      "state" : "="
+    },
+    {
+      "stored_at" : 97,
+      "techVal" : "sword melee range stat",
+      "phyVal" : "This Weapon has a large melee range and deploys and holsters slower",
+      "state" : "="
+    },
+    {
+      "stored_at" : 98,
+      "techVal" : "refill charge with ammo",
+      "phyVal" : "Ammo boxes collected give Charge",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 99,
+      "techVal" : "minigun silent killer",
+      "phyVal" : "Silent Killer: No barrel spin sound",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 100,
+      "techVal" : "flame ring while spun up",
+      "phyVal" : "Creates a ring of flames while spun up",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 101,
+      "techVal" : "alt fire to share medium health pack",
+      "phyVal" : "Alt-Fire: Share this with a friend (Medium Health Kit)",
+      "state" : "="
+    },
+    {
+      "stored_at" : 102,
+      "techVal" : "alt fire to share small health pack",
+      "phyVal" : "Alt-Fire: Share this with a friend (Small Health Kit)",
+      "state" : "="
+    },
+    {
+      "stored_at" : 103,
+      "techVal" : "max health drain while active",
+      "phyVal" : "Maximum health is drained while item is active",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 104,
+      "techVal" : "no damage on crit",
+      "phyVal" : "Critical hits do no damage",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 105,
+      "techVal" : "enemy laugh on crit",
+      "phyVal" : "Critical hit forces victim to laugh",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 106,
+      "techVal" : "other weilders laugh on hit",
+      "phyVal" : "On Hit: Force enemies to laugh who are also wearing this item",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 107,
+      "techVal" : "guaranteed crits lost on death",
+      "phyVal" : "Guaranteed crits are lost on death",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 108,
+      "techVal" : "damage dealt restores ammo",
+      "phyVal" : "On Hit: damage dealt is returned as ammo",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 109,
+      "techVal" : "no reload",
+      "phyVal" : "No reload necessary",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 110,
+      "techVal" : "metal as ammo",
+      "phyVal" : "Uses metal for ammo",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 111,
+      "techVal" : "marked for death while hauling buildings",
+      "phyVal" : "Self mark for death when hauling buildings",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 112,
+      "techVal" : "manual sentry control",
+      "phyVal" : "Take manual control of your Sentry Gun",
+      "state" : "="
     }
   ]
 }

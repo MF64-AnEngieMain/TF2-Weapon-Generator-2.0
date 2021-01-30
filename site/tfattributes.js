@@ -539,6 +539,162 @@ var tfattributes = {
       "techVal" : "gain health on kill",
       "phyVal" : "Gain +&s of base health on kill",
       "state" : "+"
+    },
+    {
+      "stored_at" : 90,
+      "techVal" : "airblast cost bonus",
+      "phyVal" : "-&s airblast cost",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 91,
+      "techVal" : "airblast cost penalty",
+      "phyVal" : "+&s airblast cost",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 92,
+      "techVal" : "afterburn bonus",
+      "phyVal" : "+&s afterburn damage bonus",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 93,
+      "techVal" : "afterburn penalty",
+      "phyVal" : "-&s afterburn damage penalty",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 94,
+      "techVal" : "repressurization on hit",
+      "phyVal" : "+&s repressurization rate on hit",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 95,
+      "techVal" : "depressurization on alt fire",
+      "phyVal" : "-&s repressurization rate on Alt-Fire",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 96,
+      "techVal" : "self damage penalty",
+      "phyVal" : "+&s damage to self",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 97,
+      "techVal" : "damage bonus on burning target",
+      "phyVal" : "+&s damage to burning players",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 98,
+      "techVal" : "wet player damage bonus",
+      "phyVal" : "+&s damage bonus vs wet players",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 99,
+      "techVal" : "wet player damage penalty",
+      "phyVal" : "-&s damage penalty vs wet players",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 100,
+      "techVal" : "health pack bonus",
+      "phyVal" : "+&s health from packs on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 101,
+      "techVal" : "health pack penalty",
+      "phyVal" : "-&s health from packs on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 102,
+      "techVal" : "healer health bonus",
+      "phyVal" : "+&s health from healers on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 103,
+      "techVal" : "healer health penalty",
+      "phyVal" : "-&s health from healers on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 104,
+      "techVal" : "move speed bonus",
+      "phyVal" : "+&s faster move speed on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 105,
+      "techVal" : "shorter grenade fuse",
+      "phyVal" : "-&s fuse time on grenades",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 106,
+      "techVal" : "stickybomb charge time bonus",
+      "phyVal" : "Max charge time decreased by &s",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 107,
+      "techVal" : "stickybomb charge time penalty",
+      "phyVal" : "Max charge time increased by &s",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 108,
+      "techVal" : "charge based damage bonus",
+      "phyVal" : "Up to +&s damage based on charge",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 109,
+      "techVal" : "charge based damage penalty",
+      "phyVal" : "Down to -&s damage based on charge",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 110,
+      "techVal" : "increased charge control",
+      "phyVal" : "+&s increase in turning control while charging",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 111,
+      "techVal" : "decreased charge control",
+      "phyVal" : "-&s decrease in turning control while charging",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 112,
+      "techVal" : "shield movespeed bonus",
+      "phyVal" : "+&s faster move speed on wearer (shield required)",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 113,
+      "techVal" : "shield movespeed penalty",
+      "phyVal" : "-&s slower move speed on wearer (shield required)",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 114,
+      "techVal" : "refill charge with kill",
+      "phyVal" : "Melee kills refill &s of your charge meter",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 115,
+      "techVal" : "deplete charge with kill",
+      "phyVal" : "Melee kills deplete &s of your charge meter",
+      "state" : "-"
     }
   ],
   "additiveAttributes" : [
@@ -715,6 +871,30 @@ var tfattributes = {
       "techVal" : "increased capture rate",
       "phyVal" : "+&s capture rate on wearer",
       "state" : "+"
+    },
+    {
+      "stored_at" : 29,
+      "techVal" : "extinguish regen hp",
+      "phyVal" : "Extinguishing teammates restores &s health",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 30,
+      "techVal" : "heal on kill",
+      "phyVal" : "+&s health restored on kill",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 31,
+      "techVal" : "bomb arm time bonus",
+      "phyVal" : "-&s sec faster bomb arm time",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 32,
+      "techVal" : "bomb arm time penalty",
+      "phyVal" : "+&s sec slower bomb arm time",
+      "state" : "-"
     }
   ],
   "absoluteAttributes" : [
@@ -1119,6 +1299,144 @@ var tfattributes = {
       "techVal" : "ohko other weilders",
       "phyVal" : "This weapon will instantly kill other players weilding it",
       "state" : "="
+    },
+    {
+      "stored_at" : 67,
+      "techVal" : "ignite coated players",
+      "phyVal" : "When a coated enemy takes damage they will burst into flames regardless of class",
+      "state" : "="
+    },
+    {
+      "stored_at" : 68,
+      "techVal" : "throwable liquid no locker refill",
+      "phyVal" : "The resupply locker will not reset the meter",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 69,
+      "techVal" : "manmelter extinguish for crits",
+      "phyVal" : "Alt-Fire: Extinguish teammates for guaranteed critical hits",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 70,
+      "techVal" : "flamethrower extinguish for crits",
+      "phyVal" : "Extinguishing teammates gives guaranteed critical hits",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 71,
+      "techVal" : "invulnerable while activating charge",
+      "phyVal" : "You will become temporarily invulnerable while activating the charge",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 72,
+      "techVal" : "no airblast",
+      "phyVal" : "No airblast",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 73,
+      "techVal" : "hit announced in feed",
+      "phyVal" : "On Hit: The hit is announced in the kill feed",
+      "state" : "="
+    },
+    {
+      "stored_at" : 74,
+      "techVal" : "extinguish enemies",
+      "phyVal" : "Mini-crits burning targets and extinguishes them",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 75,
+      "techVal" : "damage scale with afterburn",
+      "phyVal" : "Damage increases based on remaining duration of afterburn",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 76,
+      "techVal" : "kill burning player for speed",
+      "phyVal" : "Killing blows on burning players grant a speed boost",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 77,
+      "techVal" : "engulf target in flames",
+      "phyVal" : "On Hit: target is engulfed in flames",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 78,
+      "techVal" : "remove sappers",
+      "phyVal" : "Damage removes sappers",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 79,
+      "techVal" : "damage resist armor pierce",
+      "phyVal" : "This weapon pierces all forms of damage resistance",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 80,
+      "techVal" : "hit connected medi beam",
+      "phyVal" : "All players connected via Medigun beams are hit",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 81,
+      "techVal" : "crit wet players",
+      "phyVal" : "100% critical chance vs wet players",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 82,
+      "techVal" : "speed boost on enemy hit",
+      "phyVal" : "Gain a speed boost when you hit an enemy",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 83,
+      "techVal" : "low roll grenades",
+      "phyVal" : "Grenades have very little bounce and roll",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 84,
+      "techVal" : "grenades shatter on surface",
+      "phyVal" : "Launched bombs shatter on surfaces",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 85,
+      "techVal" : "cannon push back on impact",
+      "phyVal" : "Cannonballs push players back on impact",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 86,
+      "techVal" : "impact does not cause explosion",
+      "phyVal" : "Projectiles do not explode on contact",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 87,
+      "techVal" : "alt fire detonates",
+      "phyVal" : "Alt-Fire to detonate the projectile",
+      "state" : "="
+    },
+    {
+      "stored_at" : 88,
+      "techVal" : "destroy enemy stickies",
+      "phyVal" : "Able to destroy enemy stickybombs",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 89,
+      "techVal" : "scottish resistance detonation buff",
+      "phyVal" : "Detonates stickybombs near the crosshair and directly under your feet",
+      "state" : "+"
     }
   ]
 }

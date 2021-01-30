@@ -899,6 +899,30 @@ var tfattributes = {
       "techVal" : "damage bonus upon hitting multiple targets",
       "phyVal" : "Shots that damage multiple targets deal &s more damage",
       "state" : "+"
+    },
+    {
+      "stored_at" : 146,
+      "techVal" : "building damage resistance",
+      "phyVal" : "&s building damage resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 147,
+      "techVal" : "building damage vulnerability",
+      "phyVal" : "&s building damage vulnerability on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 148,
+      "techVal" : "player damage resistance",
+      "phyVal" : "&s player damage resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 149,
+      "techVal" : "player damage vulnerability",
+      "phyVal" : "&s player damage vulnerability on wearer",
+      "state" : "-"
     }
   ],
   "additiveAttributes" : [
@@ -1218,13 +1242,13 @@ var tfattributes = {
     },
     {
       "stored_at" : 5,
-      "techVal" : "mod flamethrower push",
-      "phyVal" : "No compression blast",
-      "state" : "-"
+      "techVal" : "coated enemies bleed",
+      "phyVal" : "When a coated enemy takes damage they will start to bleed",
+      "state" : "+"
     },
     {
       "stored_at" : 6,
-      "techVal" : "mod flamethrower back crit",
+      "techVal" : "crit on back",
       "phyVal" : "100% critical chance from behind",
       "state" : "+"
     },
@@ -1338,8 +1362,8 @@ var tfattributes = {
     },
     {
       "stored_at" : 26,
-      "techVal" : "headshots disabled",
-      "phyVal" : "No headshots",
+      "techVal" : "explode on ignite",
+      "phyVal" : "Wearer will take explosive damage when initally ignited",
       "state" : "-"
     },
     {

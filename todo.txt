@@ -1,0 +1,11 @@
+TOP PRIORITY:
+-Fully fix Weapon Class: Currently, the margins are very much an issue!
+-Add Weapon Level: All official TF2 weapons feature "Level (Level) (Weapon Type, like Scattergun or Wrench)", which is currently missing from the Weapon Generator
+
+NORMAL PRIORITY:
+-Add missing "canon" Attributes: If any official Attributes are missing, they should be added!
+-Bottom Portion Removal: Remove the section below the actual weapon, mainly the "Generate" button to remove confusion
+
+LOW PRIORITY:
+-Custom Attributes: While this is the most fun of the Weapon Generator, it's also the least mandatory right now.
+-Example.txt Update: The Example is a bit outdated, but it's likely not going to be viewed anyway.

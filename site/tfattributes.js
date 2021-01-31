@@ -923,6 +923,30 @@ var tfattributes = {
       "techVal" : "player damage vulnerability",
       "phyVal" : "&s player damage vulnerability on wearer",
       "state" : "-"
+    },
+    {
+      "stored_at" : 150,
+      "techVal" : "crit resistance",
+      "phyVal" : "&s crit resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 151,
+      "techVal" : "crit vulnerability",
+      "phyVal" : "&s crit vulnerability on wearer",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 152,
+      "techVal" : "arrow damage resistance",
+      "phyVal" : "&s arrow damage resistance on wearer",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 153,
+      "techVal" : "arrow damage vulnerability",
+      "phyVal" : "&s arrow damage vulnerability on wearer",
+      "state" : "-"
     }
   ],
   "additiveAttributes" : [

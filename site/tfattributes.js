@@ -1284,7 +1284,7 @@ var tfattributes = {
     },
     {
       "stored_at" : 8,
-      "techVal" : "mod bat launches balls",
+      "techVal" : "old sandman ball",
       "phyVal" : "Alt-Fire: Launches a ball that stuns opponents",
       "state" : "+"
     },

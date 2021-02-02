@@ -947,6 +947,18 @@ var tfattributes = {
       "techVal" : "arrow damage vulnerability",
       "phyVal" : "&s arrow damage vulnerability on wearer",
       "state" : "-"
+    },
+    {
+      "stored_at" : 154,
+      "techVal" : "increased shield knockbox",
+      "phyVal" : "+&s stronger shield bash knockback",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 155,
+      "techVal" : "decreased shield knockback",
+      "phyVal" : "-&s weaker shield bash knockback",
+      "state" : "-"
     }
   ],
   "additiveAttributes" : [
@@ -1941,6 +1953,18 @@ var tfattributes = {
       "techVal" : "no ramp up",
       "phyVal" : "No distance ramp-up on damage",
       "state" : "-"
+    },
+    {
+      "stored_at" : 119,
+      "techVal" : "no shield knockback",
+      "phyVal" : "Charging with this shield deals no knockback",
+      "state" : "-"
+    },
+    {
+      "stored_at" : 120,
+      "techVal" : "melee multi player hit",
+      "phyVal" : "This weapon can hit multiple players with a single swing",
+      "state" : "+"
     }
   ]
 }
